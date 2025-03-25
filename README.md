@@ -19,14 +19,16 @@
 
 - Установить и подключить базу данных PostgreSQL
 
-- Создать таблицу вбазе данных:
+- Создать таблицу в базе данных:
 
+```sql
 CREATE TABLE records (
     id SERIAL PRIMARY KEY,
     number TEXT NOT NULL,
     name TEXT NOT NULL,
     state TEXT NOT NULL
 );
+```
 
 ### Как пользоваться проектом
 
